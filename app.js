@@ -1,49 +1,29 @@
-// var
+//Operators
+let x = 20;
+let y = 10;
+let z = "20";
+let m;
+//Arithmetic
+m = x + y; //30
+m = x - y; //10
+m = x * y; //200
+m = x / y; //2
+m = x % y; //0
 
-//Date Types In Javascript
-//string
-let variabel = "Mohammad";
-variabel = "Taha";
+//Assignment
+x += y; //x = x + y
+x -= y; //x = x - y
+x *= y; //x = x * y
+x /= y; //x = x / y
+x %= y; //x = x % y
 
-//number
-variabel = 14;
-variabel = "14";
-Number(variabel);
+ //Comparison //true //false 
+ x = 20
+ m = x == z
+ m = x === z
 
-//symbol ES6
-variabel = Symbol("HELLO");
 
-//Object
-
-let person = {
-  name: "Taha",
-  age: 14,
-  job: "Web-Developer",
-};
-
-//Array
-let personfavoritjob = ["Developer", "Barber", "Streamer"];
-
-//function
-let func = function () {
-  console.log("Now Function Is Working");
-};
-// func()
-
-//Boolean
-variabel = true;
-variabel = false;
-
-//date
-let date = new Date();
-//undefined
-
-let name = "Taha";
-name = undefined;
-
-//null
-
-name = null;
-
-console.log(name);
-console.log(typeof name);
+console.log(m);
+console.log(x);
+console.log(y);
+console.log(z);
