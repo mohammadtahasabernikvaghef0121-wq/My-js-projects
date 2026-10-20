@@ -21,7 +21,16 @@ x %= y; //x = x % y
  x = 20
  m = x == z
  m = x === z
+ m = x < y
+ m = x > y
 
+
+ //Logical
+ m = (x > y && x > 5)
+ m = (x < y && x > 5)
+ m = (x < y && x < 5)
+
+ m = (x > y || x > 5)
 
 console.log(m);
 console.log(x);
