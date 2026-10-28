@@ -1,18 +1,11 @@
-//objects
-// objects
-let person = {
-  firstName: "Taha",
-  lastName: "Nik",
-  age: 14,
-};
+//constwarning
+const name = [1,2,3,4]
+name.push(5,6,7)
+const person = {
+  name:"Taha",
+  age:14
+}
+person.age=15
 
-let userLocation = {
-  city: "Anzali",
-  number: "7",
-  country: "Iran",
-};
-
-let personArray = ["Taha", "Nik", 14];
-
-console.log(person);
-console.log(userLocation);
+console.log(name)
+console.log(person)
