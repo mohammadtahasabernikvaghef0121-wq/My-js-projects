@@ -1,11 +1,7 @@
-//constwarning
-const name = [1,2,3,4]
-name.push(5,6,7)
-const person = {
-  name:"Taha",
-  age:14
-}
-person.age=15
 
+//function
+function hello(name) {
+  console.log(`Hello ${name}`)
+}
 console.log(name)
-console.log(person)
+hello("Taha Saber")
