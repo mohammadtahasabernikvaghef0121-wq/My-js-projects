@@ -1,15 +1,21 @@
 
-//function
-(function(name){
-console.log('hello ' + name)
-}('Taha'))
+//Date objects
 let person = {
-  name: 'Mohammad' ,
-  age : 14 ,
-  city: 'Anzali' ,
-  great : function(){
-    return `hello ${this.name}`
-  }
+  name : "Taha" ,
+  birthday :2012
 }
-console.log(person.great())
+const now = new Date().toDateString();
+  let output;
+  console.log(now)
+  // const year = now.getFullYear()
 
+  // output = now.getDay()
+  // output = now.getMonth()
+
+
+
+  // let personAge = year - person.birthday
+
+  // console.log(now)
+  // console.log(personAge)
+ 
