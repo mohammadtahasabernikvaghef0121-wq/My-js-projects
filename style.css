@@ -1,0 +1,11 @@
+.github-graph {
+    background: rgb(57, 57, 57);
+    padding: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .github-graph img {
+    width:100%;
+    height: auto;
+  }
